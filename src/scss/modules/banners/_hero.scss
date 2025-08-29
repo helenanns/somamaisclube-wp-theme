@@ -1,0 +1,83 @@
+.m-banner-hero {
+	position: relative;
+	overflow: visible;
+
+	.swiper {
+		overflow: visible;
+	}
+
+	.swiper-slide {
+		height: auto;
+		width: 100%;
+
+		img {
+			width: 100%;
+			height: 100%;
+			display: block;
+			object-fit: cover;
+			object-position: center;
+		}
+
+		figure {
+			position: relative;
+			margin: 0;
+			overflow: hidden;
+			height: 100%;
+			display: block;
+		}
+	}
+
+	.swiper-wrapper {
+		min-height: 290px;
+	}
+
+	.swiper-button-prev,
+	.swiper-button-next {
+		color: #fff;
+		&:after {
+			font-size: 24px;
+		}
+		@media (max-width: $size-desktop) {
+			display: none;
+		}
+	}
+
+	.swiper-pagination {
+		bottom: -12px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		padding: 0 20px;
+		height: 8px;
+
+		 @media (min-width: $size-desktop) {
+			gap: 17px;
+			bottom: -26px;
+		}
+
+		.swiper-pagination-bullet {
+			height: 7px;
+			width: 7px;
+			margin: 0;
+			position: relative;
+			opacity: 1;
+			background: transparent;
+			opacity: 0.5;
+			transition: 0.35s ease;
+			border: 1px solid $blue;
+
+			 @media (min-width: $size-desktop) {
+				height: 11px;
+				width: 11px;
+				border: 2px solid $blue;
+			}
+
+			&-active {
+				background: $blue;
+				opacity: 1;
+				border: 0;
+			}
+		}
+	}
+}

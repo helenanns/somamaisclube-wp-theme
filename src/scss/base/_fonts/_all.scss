@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import './icons';
+
+@font-face {
+	font-family: 'Noir Pro';
+	src: url('../fonts/noir-pro/NoirPro-Light.woff2') format('woff2'), url('../fonts/noir-pro/NoirPro-Light.woff') format('woff'), url('../fonts/noir-pro/NoirPro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noir Pro';
+	src: url('../fonts/noir-pro/NoirPro-LightItalic.woff2') format('woff2'), url('../fonts/noir-pro/NoirPro-LightItalic.woff') format('woff'),
+		url('../fonts/noir-pro/NoirPro-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Noir Pro';
+	src: url('../fonts/noir-pro/NoirPro-Regular.woff2') format('woff2'), url('../fonts/noir-pro/NoirPro-Regular.woff') format('woff'), url('../fonts/noir-pro/NoirPro-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noir Pro';
+	src: url('../fonts/noir-pro/NoirPro-Italic.woff2') format('woff2'), url('../fonts/noir-pro/NoirPro-Italic.woff') format('woff'), url('../fonts/noir-pro/NoirPro-Italic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Noir Pro';
+	src: url('../fonts/noir-pro/NoirPro-Medium.woff2') format('woff2'), url('../fonts/noir-pro/NoirPro-Medium.woff') format('woff'), url('../fonts/noir-pro/NoirPro-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noir Pro';
+	src: url('../fonts/noir-pro/NoirPro-MediumItalic.woff2') format('woff2'), url('../fonts/noir-pro/NoirPro-MediumItalic.woff') format('woff'),
+		url('../fonts/noir-pro/NoirPro-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Noir Pro';
+	src: url('../fonts/noir-pro/NoirPro-SemiBoldItalic.woff2') format('woff2'), url('../fonts/noir-pro/NoirPro-SemiBoldItalic.woff') format('woff'),
+		url('../fonts/noir-pro/NoirPro-SemiBoldItalic.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Noir Pro';
+	src: url('../fonts/noir-pro/NoirPro-Bold.woff2') format('woff2'), url('../fonts/noir-pro/NoirPro-Bold.woff') format('woff'), url('../fonts/noir-pro/NoirPro-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noir Pro';
+	src: url('../fonts/noir-pro/NoirPro-BoldItalic.woff2') format('woff2'), url('../fonts/noir-pro/NoirPro-BoldItalic.woff') format('woff'),
+		url('../fonts/noir-pro/NoirPro-BoldItalic.ttf') format('truetype');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Noir Pro';
+	src: url('../fonts/noir-pro/NoirPro-Heavy.woff2') format('woff2'), url('../fonts/noir-pro/NoirPro-Heavy.woff') format('woff'), url('../fonts/noir-pro/NoirPro-Heavy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noir Pro';
+	src: url('../fonts/noir-pro/NoirPro-HeavyItalic.woff2') format('woff2'), url('../fonts/noir-pro/NoirPro-HeavyItalic.woff') format('woff'),
+		url('../fonts/noir-pro/NoirPro-HeavyItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/Bebas-Neue-Book.woff2') format('woff2'), url('../fonts/Bebas-Neue-Book.woff') format('woff'), url('../fonts/Bebas-Neue-Book.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}

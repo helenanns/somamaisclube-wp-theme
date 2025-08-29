@@ -1,0 +1,19 @@
+@import './base/imports';
+
+
+.l-main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1{
+        font-size: rem(48px);
+    }
+
+    h2{
+        font-size: rem(18px);
+        font-weight: 400;
+    }
+}

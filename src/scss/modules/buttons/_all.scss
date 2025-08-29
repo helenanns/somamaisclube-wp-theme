@@ -1,0 +1,25 @@
+.m-button {
+	&.blue {
+		color: $white;
+		background-image: linear-gradient(30deg, #003a6a -73%, #00afe7 51%, #003a6a 157%);
+		text-transform: uppercase;
+		border: 0;
+		padding: 3px 21px;
+		display: block;
+		width: fit-content;
+		font-weight: 300;
+		cursor: pointer;
+		text-decoration: none;
+		filter: drop-shadow(-3.09px 5.143px 3px rgba(77, 77, 77, 0.42));
+		display: flex;
+		align-items: center;
+		gap: 10px;
+        letter-spacing: .09em;
+		font-size: 16px;
+
+		&:hover {
+			background-color: $orange;
+			color: $white;
+		}
+	}
+}

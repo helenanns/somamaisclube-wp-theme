@@ -1,0 +1,32 @@
+@import 'base/imports';
+@import 'base/base';
+
+// Layouts:
+@import './layouts/header';
+@import './layouts/footer';
+@import './layouts/container';
+
+// Modules
+@import './modules/buttons/all';
+
+body.admin-bar {
+	margin-top: 32px;
+}
+
+.l-main {
+	padding-top: 63px;
+	font-size: rem(15px);
+	color: $dark;
+	line-height: 1.3;
+	min-height: calc(100vh - 460px);
+	
+	@media (min-width: $size-desktop) {
+		font-size: rem(19px);
+		padding-top: 0;
+		min-height: calc(100vh - 243px - 101px);
+	}
+
+	strong {
+		font-weight: 600;
+	}
+}

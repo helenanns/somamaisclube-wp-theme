@@ -1,0 +1,41 @@
+.m-button-hamburger {
+	border: none;
+	width: rem(40px);
+	height: rem(40px);
+	position: relative;
+	padding: 0;
+	cursor: pointer;
+	outline: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: transparent;
+
+	& > .m-button-hamburger-inner {
+		display: block;
+		background: $blue;
+		background: linear-gradient(to right, $blue, $light-blue);
+		height: 6px;
+		width: 30px;
+		position: relative;
+		top: 1px;
+
+		&:after,
+		&:before {
+			height: 100%;
+			width: 100%;
+			display: block;
+			content: '';
+			background: linear-gradient(to right, $blue, $light-blue);
+			position: absolute;
+		}
+
+		&:before {
+			top: -9px;
+		}
+		&:after {
+			top: 9px;
+			position: relative;
+		}
+	}
+}
